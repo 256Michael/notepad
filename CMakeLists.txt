@@ -9,6 +9,7 @@ include_directories(src)
 
 set(translations_SRCS
     translations/notepad_pl.ts
+    translations/notepad_eo.ts
 )
 
 set_property(GLOBAL APPEND PROPERTY COMPILE_DEFINITIONS $<$<CONFIG:Debug>:DEBUG>)
